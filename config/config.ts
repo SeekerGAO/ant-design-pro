@@ -104,4 +104,8 @@ export default defineConfig({
   manifest: {
     basePath: '/',
   },
+  outputPath: `dist/${REACT_APP_ENV}`,
+  history: {
+    type: 'hash',
+  },
 });
