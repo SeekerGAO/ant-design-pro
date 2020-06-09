@@ -27,4 +27,12 @@ export default {
       pathRewrite: { '^': '' },
     },
   },
+  // 使用https://preview.pro.ant.design中的api
+  pro: {
+    '/api/': {
+      target: 'https://proapi.azurewebsites.net',
+      changeOrigin: true,
+      pathRewrite: { '^': '' },
+    },
+  },
 };
