@@ -6,29 +6,32 @@
  * https://pro.ant.design/docs/deploy
  */
 export default {
+  // 测试
   dev: {
     '/api/': {
-      target: 'https://preview.pro.ant.design',
+      target: 'https://dev.tc-etc.cn/test',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
   },
-  test: {
-    '/api/': {
-      target: 'https://preview.pro.ant.design',
-      changeOrigin: true,
-      pathRewrite: { '^': '' },
-    },
-  },
+  // 预发布
   pre: {
     '/api/': {
-      target: 'your pre url',
+      target: 'https://xpapi.cyui.cn/test',
+      changeOrigin: true,
+      pathRewrite: { '^': '' },
+    },
+  },
+  // 正式
+  prod: {
+    '/api/': {
+      target: 'https://lsh.tc-etc.com',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
   },
   // 使用https://preview.pro.ant.design中的api
-  pro: {
+  design: {
     '/api/': {
       target: 'https://proapi.azurewebsites.net',
       changeOrigin: true,
