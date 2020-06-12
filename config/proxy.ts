@@ -13,6 +13,11 @@ export default {
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
+    '/gas_mini/': {
+      target: 'https://dev.tc-etc.cn/test',
+      changeOrigin: true,
+      pathRewrite: { '^': '' },
+    },
   },
   // 预发布
   pre: {
