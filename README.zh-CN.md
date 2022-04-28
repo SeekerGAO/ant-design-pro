@@ -1,4 +1,4 @@
-[English](./README.md) | 简体中文 | [Русский](./README.ru-RU.md) | [Türkçe](./README.tr-TR.md) | [日本語](./README.ja-JP.md) | [Français](./README.fr-FR.md) | [Português](./README.pt-BR.md)
+Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | [🇹🇷](./README.tr-TR.md) | [🇯🇵](./README.ja-JP.md) | [🇫🇷](./README.fr-FR.md) | [🇵🇹](./README.pt-BR.md) | [🇸🇦](./README.ar-DZ.md)
 
 <h1 align="center">Ant Design Pro</h1>
 
@@ -19,10 +19,9 @@
 - 常见问题：http://pro.ant.design/docs/faq-cn
 - 国内镜像：http://ant-design-pro.gitee.io
 
-## 现在我们发布了 4.0! 🎉🎉🎉
+## 5.0 已经发布! 🎉🎉🎉
 
-[Announcing Ant Design Pro 4.0.0](https://zhuanlan.zhihu.com/p/67498559)
-
+[Ant Design Pro 5.0.0](https://github.com/ant-design/ant-design-pro/issues/8656)
 ## 特性
 
 - :bulb: **TypeScript**: 应用程序级 JavaScript 的语言
